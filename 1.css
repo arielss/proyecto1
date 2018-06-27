@@ -1,0 +1,270 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{ 
+    background-image: url("imagenes/1.jpg");
+    background-size: 100% 100%;
+}
+
+#header{
+    margin: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+}
+
+H1{
+    color: rgb(205, 253, 255);
+    font-size: 30px;
+    font-family: cursive;
+    background-image: url("imagenes/2.png");
+    padding: 10px;
+    
+}
+
+ul,ol{
+    list-style: none;
+}
+.nav li a {
+    color: rgb(205, 253, 255);
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+
+}
+.nav li a:hover{
+    background-color:#039dc49c; 
+}
+.nav > li {
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.nav li:hover > ul {
+    display: block;
+
+}
+.nav li ul li {
+    position: relative;
+}
+.nav li ul li ul {
+    right: -140px;
+    top: 0px;
+}
+
+div.texto{
+    color: white;
+    text-align: center;
+    background-image: url("imagenes/2.png");
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p.equis{
+    color: aliceblue;
+    font-size: 30px; 
+    text-align: center;  
+   }
+    
+
+#mid{
+    text-align: center;
+    margin: 10px;
+    border: 8px solid black;
+    border-radius: 200px;
+    margin-left: 300;
+    margin-right: 300;
+   
+}
+img.w{
+  
+   margin-right: 50px;
+   margin-top: 50px;
+   text-align: center;
+   height: 120px;
+   width: 120px;
+}
+
+img.t{
+
+text-align: center;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+p.p1{
+    color: aliceblue;
+    font-size: 30px; 
+    text-align: center;  
+    
+   }
+   
+   #mid2{
+    text-align: center;
+    margin: 10px;
+    border: 8px solid black;
+    border-radius: 200px;
+    margin-left: 300;
+    margin-right: 300;
+   
+}
+img.b{
+  
+   margin-right: 50px;
+   margin-top: 50px;
+   text-align: center;
+
+}
+
+img.sj{
+
+margin-left: 50px;
+margin-top: 50px;
+text-align: center;
+}
+
+p.p2{
+    color: aliceblue;
+    font-size: 30px; 
+    text-align: center;  
+    
+   }
+
+   #mid3{
+    text-align: center;
+    margin: 10px;
+    border: 8px solid black;
+    border-radius: 200px;
+    margin-left: 300;
+    margin-right: 300;
+   
+}
+img.rp{
+  
+   margin-right: 50px;
+   margin-top: 50px;
+   text-align: center;
+
+}
+
+img.g{
+
+margin-left: 50px;
+margin-top: 50px;
+text-align: center;
+}
+
+p.p3{
+    color: aliceblue;
+    font-size: 30px; 
+    text-align: center;  
+    
+   }
+
+div.boton {
+    text-align: center;
+} 
+
+h2.w{
+    text-align: center;
+    color: white;
+}
+#midw{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 500px;
+}
+form{
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    background: #f3f3f3;
+    padding: 30px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(0,0,0,0.5);
+}
+input{
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+}
+div.entrada{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 10%;
+}
+H3{
+    color: #f3f3f3;
+    font-family: cursive;
+    text-align: center;
+    font-size: 30px;
+}
+
+div#body{
+    background-image: url("imagenes/pelota.png");
+    margin: auto;
+    margin-top: 60px;
+    width: 900px;
+    height: 300px;
+    
+}
+
+div.preferencia{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(11, 13, 77, 0.301);
+    float: left;
+}
+
+div.general{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(11, 13, 77, 0.301);
+    float: left;
+}
+div.curva{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(11, 13, 77, 0.301);
+    float: left;
+}
+h6{
+    background-color: #039dc462;
+    text-align: center;
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+div.venta{
+    text-align: center;
+}

@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Entraditas.bo</title>
+        <link rel="icon" type="image/png" href="imagenes/tiket.png">
+        <link rel="stylesheet" type="text/css" href="1.css">
+    </head>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <body>
+       <div id="im"> 
+       <div id="header">
+         <ul class="nav">
+            <li><a href="practica.html">Inicio</a></li>
+            <li><a href="iniciarsesion.html">Iniciar Sesion</a></li>  
+            <li><a href="">Ciudades</a>
+              <ul>
+                <li><a href="Cochabamba.html">Cochabamba</a></li>
+                <li><a href="LaPaz.html">La Paz</a></li>
+                <li><a href="SantaCruz.html">Santa Cruz</a></li>
+                <li><a href="Oruro.html">Oruro</a></li>
+                <li><a href="Chuquisaca.html">Chuquisaca</a></li>
+                <li><a href="Potosi.html">Potosi</a></li>
+              </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+         </ul> 
+         <H1>Entraditas.bo</H1>  
+       </div>
+     </div>
+       <br><br><br><br><br>
+        
+    <H3>PRECIOS</H3>
+    <div id="body"> 
+    <div class="preferencia">
+        <br><br>Preferencia<br>
+        50 bs.<br>
+                <img src="imagenes/paypal.png" width="200">
+            <a href="#" class="btn btn-default producto" precio="7.183" titulo="preferencia" role="button"><img src="imagenes/compra.png" width="250"> </a>     
+    </div>    
+      <div class="general">
+        <br><br>General<br>
+        40 bs.<br>
+            <img src="imagenes/paypal.png" width="200">
+            <a href="#" class="btn btn-default producto" precio="5.747" titulo="general" role="button"><img src="imagenes/compra.png" width="250"> </a>
+    </div>
+    <div class="curva">
+        <br><br>Curvas<br>
+        30 bs.<br>
+                <img src="imagenes/paypal.png" width="200">
+                <a href="#" class="btn btn-default producto" precio="4.310" titulo="curvas" role="button"><img src="imagenes/compra.png" width="250">  </a>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <a href="qr.html">
+    <center><div><button><img src="imagenes/tiquet.png" width="250"> </button></div></center>
+    </a>
+    <br><br><br><br><br>
+    <script src="minicart.js"></script>
+            <script>
+              // configuración inicial del carrito 
+              paypal.minicart.render({
+              strings:{
+                button:'Pagar'
+               ,buttonAlt: "Total"
+               ,subtotal: 'Total:'
+               ,empty: 'No hay productos en el carrito'
+              }
+              });
+              // Eventos para agregar productos al carrito
+              
+               $('.producto').click(function(e){
+                   e.stopPropagation();
+                    paypal.minicart.cart.add({
+                    business: 'arcangelriel@gmail.com', // Cuenta paypal para recibir el dinero
+                    item_name: $(this).attr("titulo"),
+                     amount: $(this).attr("precio"),
+                     currency_code: 'USD',
+                    });
+               });
+              
+            </script>
+  </body>
+</html>
