@@ -2,7 +2,7 @@
   $servername="localhost";
   $username="root";
   $password="";
-  $dbname="bd1";
+  $dbname="conexion1";
   $conn=new mysqli($servername,$username,$password,$dbname);
   if($conn->connect_error){
       die("Connection failed:".$conn->connect_error);
@@ -24,13 +24,9 @@
             $pass = $_POST["pass"];
             $pass=md5($pass);
             
-            
-         
-           
-            
-            $stmt->execute();
+             $stmt->execute();
     
-        require "iniciarsesion.php";
+       require "login.php";
         $stmt->close();
         $conn->close();
         }

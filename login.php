@@ -1,5 +1,5 @@
-    </html>
-    <html>
+   
+   <html>
        <head>
    <title>Entraditas.bo</title>
         <link rel="icon" type="image/png" href="imagenes/tiket.png">
@@ -29,7 +29,7 @@
                    <br><br><br><br>
        <form action="login.php" method="post">
            <h2>Iniciar Sesion</h2>
-            <input type="text" name="email" placeholder="Ingrese su Email">
+            <input type="text" name="email" placeholder="Ingrese su Nombre de Usuario">
 
             <input type="password" name="password" placeholder="Ingrese su contraseña">
             <input type="submit" value="Iniciar">
